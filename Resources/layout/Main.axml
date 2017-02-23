@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download" />
+    <Button
+        android:text="Clear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearButton" />
+    <TextView
+        android:text="Status Code"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:layout_marginTop="8dp" />
+    <TextView
+        android:text="Result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result" />
 </LinearLayout>
